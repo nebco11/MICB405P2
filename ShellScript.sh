@@ -6,24 +6,20 @@
 #
 
 
-WORK_DIR=/home/bwillox_mb18/p2
 DATA_DIR=/projects/micb405/resources/project_2/2018/SaanichInlet_10m
-META_T_DIR=/projects/micb405/resources/project_2/2018/Metatranscriptomes/
 RESOURCE_DIR=/projects/micb405/resources/project_2/2018/
 PROKKA_HELPER_PATH=/projects/micb405/resources/project_2/2018/SaanichInlet_10m/MetaBAT2_SaanichInlet_10m/gtdbtk_output
+WORK_DIR=/home/bwillox_mb18/p2
 MAGS=/projects/micb405/resources/project_2/2018/SaanichInlet\_10m/MetaBAT2\_SaanichInlet_10m/MedQPlus_MAGs
-
+META_T_DIR=/projects/micb405/resources/project_2/2018/Metatranscriptomes/
 ASSIGNED_DEPTH=10m
-
-PROKKA=$(which prokka)
-BWA=$(which bwa)
 RPKM=/projects/micb405/resources/project_2/2018/rpkm
 THREADS=8
 
 
 echo
 
-echo "------STARTING MAIN ANALYSIS SCRIPT------"
+echo "------Starting the script------"
 
 echo 
 
